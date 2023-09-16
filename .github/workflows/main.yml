@@ -45,19 +45,19 @@ jobs:
         run: |
           php index.php
         env:
-          OCI_REGION:ca-montreal-1
-          OCI_USER_ID:ocid1.user.oc1..aaaaaaaac2mopal5mclak7ulbaukkhxe4q5nbjkmx6gfyfpsr6al34rjgvbq
-          OCI_TENANCY_ID:ocid1.tenancy.oc1..aaaaaaaabqlbzukqgjygwtkg7nvieqs4nagkhqkx5obnbdby2aiuh6o52f2a
-          OCI_KEY_FINGERPRINT:bd:5c:2f:52:c2:8b:e8:70:9f:84:88:d7:e6:77:c3:c6
-          OCI_PRIVATE_KEY_FILENAME="https://0x0.st/HONa.pem"
-          OCI_SUBNET_ID=ocid1.subnet.oc1.ca-montreal-1.aaaaaaaariujuubvl42uipjicvxgbxk37od3vwgbooud44ehz56ju25w24wq
-          OCI_IMAGE_ID=ocid1.image.oc1.ca-montreal-1.aaaaaaaao3dawjkbdpfwsua64kcdmrtpps2onaqyvqmbg5locoxb6jnorpga
-          OCI_OCPUS=4
-          OCI_MEMORY_IN_GBS=24
-          OCI_SHAPE=VM.Standard.A1.Flex
-          OCI_MAX_INSTANCES=1
-          OCI_SSH_PUBLIC_KEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZexceDRTuzDMOZTdbAuLd6NtnKZ5Nx3eXqYvNYok4Vz/OlyDbDwb1Bkinbtp+bff2DReoFhLzAP6WfWjj6tlwB6ql1yhEq9+voPH+JwhPUKxmSsQ7U7dDXS2sL5B2un0P9aURCicT/ay7jGyX/SPx2nO0RaI+HgJt4kYV3D87elocKovXCIn6YUTtaXvE+AJtcjNoaWPHy80BGlYz++0Fmmg85wvNHFePPhk7cL6n7Asx7yL4zshXFzfilsLNkCad/JvUzUrzZ7fGYHRn0DXev1tdptbKQvgZZJt/RAD+29/B7o4ouZrzg3kiLCYAEJioi4Hr2tWjcA+ebP62Y6Al"
-          OCI_AVAILABILITY_DOMAIN=pNKu:CA-MONTREAL-1-AD-1
-          CACHE_AVAILABILITY_DOMAINS=1
-          OCI_BOOT_VOLUME_SIZE_IN_GBS=200
-          TOO_MANY_REQUESTS_TIME_WAIT=600
+          OCI_REGION: "ca-montreal-1"
+          OCI_USER_ID: "ocid1.user.oc1..aaaaaaaac2mopal5mclak7ulbaukkhxe4q5nbjkmx6gfyfpsr6al34rjgvbq"
+          OCI_TENANCY_ID: "ocid1.tenancy.oc1..aaaaaaaabqlbzukqgjygwtkg7nvieqs4nagkhqkx5obnbdby2aiuh6o52f2a"
+          OCI_KEY_FINGERPRINT: "bd:5c:2f:52:c2:8b:e8:70:9f:84:88:d7:e6:77:c3:c6"
+          OCI_PRIVATE_KEY_FILENAME: "https://0x0.st/HONa.pem"
+          OCI_SUBNET_ID: "ocid1.subnet.oc1.ca-montreal-1.aaaaaaaariujuubvl42uipjicvxgbxk37od3vwgbooud44ehz56ju25w24wq"
+          OCI_IMAGE_ID: "ocid1.image.oc1.ca-montreal-1.aaaaaaaao3dawjkbdpfwsua64kcdmrtpps2onaqyvqmbg5locoxb6jnorpga"
+          OCI_OCPUS: 4
+          OCI_MEMORY_IN_GBS: 24
+          OCI_SHAPE: "VM.Standard.A1.Flex"
+          OCI_MAX_INSTANCES: 1
+          OCI_SSH_PUBLIC_KEY: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZexceDRTuzDMOZTdbAuLd6NtnKZ5Nx3eXqYvNYok4Vz/OlyDbDwb1Bkinbtp+bff2DReoFhLzAP6WfWjj6tlwB6ql1yhEq9+voPH+JwhPUKxmSsQ7U7dDXS2sL5B2un0P9aURCicT/ay7jGyX/SPx2nO0RaI+HgJt4kYV3D87elocKovXCIn6YUTtaXvE+AJtcjNoaWPHy80BGlYz++0Fmmg85wvNHFePPhk7cL6n7Asx7yL4zshXFzfilsLNkCad/JvUzUrzZ7fGYHRn0DXev1tdptbKQvgZZJt/RAD+29/B7o4ouZrzg3kiLCYAEJioi4Hr2tWjcA+ebP62Y6Al"
+          OCI_AVAILABILITY_DOMAIN: "pNKu:CA-MONTREAL-1-AD-1"
+          CACHE_AVAILABILITY_DOMAINS: 1
+          OCI_BOOT_VOLUME_SIZE_IN_GBS: 200
+          TOO_MANY_REQUESTS_TIME_WAIT: 600
